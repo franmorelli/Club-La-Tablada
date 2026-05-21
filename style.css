@@ -1,0 +1,136 @@
+#estilo1{
+    background-image: url(tabladaequipo.jpg);
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: 800px;   
+}
+
+/* TITULO ARRIBA Y CENTRADO */
+#estilo1 h1{
+    color: white;
+
+    font-size: 45px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+
+    margin: 0%;
+}
+
+/* CUADRO AZUL */
+#texto{
+      background-color: rgba(40, 40, 70, 0.7);
+
+    padding: 15px 20px;
+
+    position: absolute;
+
+    margin-left: 80px;
+
+    margin-top: 170px;
+
+    display: inline-block;
+}
+
+/* TEXTO DEL CUADRO */
+#texto h2{
+    color: white;
+
+    font-size: 45px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+   margin: 0%;
+
+    text-align: left;
+}
+#textofacil{
+    color: white;
+
+    font-size: 20px;
+
+    font-family: Arial, Helvetica
+}
+
+#botonafiliarse{
+ background-color: white;
+    color: black;
+
+
+    font-size: 18px;
+
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 5px;
+    margin-left: 350px;
+
+    cursor: pointer;
+    position: relative;
+
+    top: -60px;
+}
+
+#texto2{
+    color: white;
+
+    font-size: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+text-align: right;
+}
+#entrada1{
+    background-color: rgba(40, 40, 70, 0.7);
+
+    
+    padding: 15px 20px;
+
+    position: absolute;
+
+    margin-left: 800px;
+
+    margin-top: 170px;
+} 
+#entrada1 h2{
+    color: white;
+
+    font-size: 45px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0%;
+
+    text-align: left;
+}
+
+#entrada1 p{
+    color: white;
+
+    font-size: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botonentrada{
+    background-color: white;
+    color: black;
+
+
+    font-size: 18px;
+
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 5px;
+    margin-left: 350px;
+
+    cursor: pointer;
+    position: relative;
+
+    top: -60px;
+}

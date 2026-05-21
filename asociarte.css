@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#barra{
+    background-color: #06152e;
+
+    height: 90px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0px 40px;
+}
+
+
+#titulo{
+    color: rgb(214, 13, 13);
+
+    font-size: 40px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu1{
+    background-color: white;
+
+    color: #06152e;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    font-size: 18px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+    margin-right: 100px;
+    
+}
+
+#imagen2{
+    background-image: url(cancha.png);
+
+    height: 850px;
+
+    background-size: cover;
+
+    background-position: center;
+}
+
+#margen1{
+    color: white;
+
+    font-size: 70px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 700px;
+
+    padding-top: 200px;
+
+    padding-left: 70px;
+}
+
+
+h2{margin:0%}
+
+#beneficios{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    margin-top: 30px;
+}
+
+#beneficios h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#beneficios p{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+
+
+#form1{
+    background-color: white;
+
+    width: 480px;
+  
+
+    padding: 33px;
+
+    border-radius: 15px;
+
+    margin-left: 850px;
+
+    margin-top: -650px;
+    
+}
+
+#form1 h2{
+    color: #06152e;
+
+    font-size: 35px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-bottom: 30px;
+}
+
+#form1 p{
+    font-size: 22px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-bottom: 20px;
+
+    color: #06152e;
+}
+
+#form1 input{
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 8px;
+
+    border-radius: 5px;
+
+    border: 1px solid gray;
+
+    font-size: 16px;
+}
+
+#botonafiliar{
+    width: 100%;
+
+    background-color: #06152e;
+
+    color: white;
+
+    border: none;
+
+    padding: 15px;
+    width: 100%;
+    
+    font-size: 18px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="entradas.css">
+    <title>Compra tu entrada</title>
+</head>
+<body>
+    <header id="barra">
+
+        <h1 id="titulo">
+            LA TABLADA
+        </h1>
+
+        <a href="entregaweb.html">
+
+            <button id="menu1">
+                Menu principal
+            </button>                    </a>
+
+    </header>
+
+    <diV id="imagentribuna">
+
+     <h2 id="titulo1">
+            VENI A ALENTARNOS
+        </h2>
+          <div id="beneficios">
+        <h3>Beneficios de comprar entrada: </h3>
+
+        <p>✓ Entrada digital inmediata</p>
+
+<p>✓ Acceso rápido al estadio</p>
+
+<p>✓ Ubicaciones preferenciales</p>
+
+<p>✓ Ambiente familiar y seguro</p>
+
+<div id="formCOMPRA">
+    <h2>Compra tu entrada</h2>
+    <p>Equipo en contra: <select id="equipo" onchange="calcularPrecio()">
+                    <option value="Athletic">Athletic</option>
+                    <option value="Tala">Tala</option>
+                    <option value="Jockey Club Córdoba">Jockey Club Córdoba</option>
+                    <option value="Uru Cure">Uru Cure</option>
+                </select>
+
+                <p>Condición: <select id="condicion" >
+                    <option value="local">Local</option>
+                    <option value="visitante">Visitante</option>
+                    
+                </select>
+            </p>     
+            <p>
+    Email:
+    <input type="email" id="email" placeholder="indique su email">
+</p>
+  <p>
+    Cantidad de entradas:
+    <input type="number" id="Cantidad" value="1" min="1" >
+</p>     
+<button type="button" onclick=" cotizar()" id="botoncotizar">cotizar</button>
+<p id="precioentrada"></p>
+   <br>  <br>
+             <button type="button" onclick=" comprar()" id="botoncomprar">Comprar</button>
+             <p id="resultadoentrada"></p>
+             
+        </form>
+ </diV>
+
+        </diV>
+</body>
+</html>
